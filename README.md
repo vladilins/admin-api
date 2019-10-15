@@ -34,6 +34,16 @@
 $ npm install
 ```
 
+## Add MongoDB
+Create config folder in the root directory with keys.ts file
+```
+export default {
+  mongoURI:
+    'mongodb+srv://name:password@cluster.mongodb.net/test?retryWrites=true&w=majority',
+};
+
+```
+
 ## Running the app
 
 ```bash
